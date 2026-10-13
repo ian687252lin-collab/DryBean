@@ -4,7 +4,15 @@
 
 ---
 
-## [v1.7.0] - 2026-10-13 (目前版本)
+## [v1.7.1] - 2026-10-13 (目前版本)
+### 🧪 全域 7 大維度 64 項嚴謹自動化測試套件導入 (7-Dimension Test Suite Integration)
+- **自動化測試套件研發 (`test_suite.py`)**：
+  - 開發 [test_suite.py](file:///c:/Users/IAN/Desktop/人工智慧概論/04_期中專題_DryBean/src/test_suite.py)，涵蓋目錄結構、原始/清洗數據（13,611 raw vs 13,543 cleaned）、機器學習指標（RF 92.06%, DT 90.29%, K-Means ARI 0.6669）、8 大圖檔二進位無損校驗、18 頁簡報 HTML 標籤與 JS 動態事件、萬字報告 Markdown 一致性、Git 脫敏安全等 7 大維度。
+  - **診斷結果**：總計 64 項檢查全數通過（PASS: 64, WARN: 0, FAIL: 0），達到工業級專案驗收水準。
+
+---
+
+## [v1.7.0] - 2026-10-13
 ### 🚀 全專案版本控制與 GitHub 雲端同步上傳 (Git VCS & GitHub Deployment)
 - **Git 倉庫初始化與配置**：
   - 本地建立 `.git` 倉庫並配置 `.gitignore`，自動排除約 400MB 之 `venv/` 虛擬環境與 Python 快取暫存。
