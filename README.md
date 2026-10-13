@@ -6,7 +6,8 @@
 > - **學期**：115-1 (115學年度第1學期)  
 > - **期中專題對戰**：**第 09 組（本組） VS 第 13 組 (PK 組)**  
 > - **專案題目**：UCI Machine Learning Repository — **Dry Bean Dataset (乾豆資料集)**  
-> - **期中簡報時間**：**2026/10/27（第八週，20分鐘口頭簡報與 PK 答辯）**
+> - **期中簡報時間**：**2026/10/27（第八週，20分鐘口頭簡報與 PK 答辯）**  
+> - **GitHub 遠端儲存庫**：[https://github.com/ian687252lin-collab/DryBean](https://github.com/ian687252lin-collab/DryBean)
 
 ---
 

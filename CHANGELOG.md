@@ -4,7 +4,19 @@
 
 ---
 
-## [v1.6.0] - 2026-10-13 (目前版本)
+## [v1.7.0] - 2026-10-13 (目前版本)
+### 🚀 全專案版本控制與 GitHub 雲端同步上傳 (Git VCS & GitHub Deployment)
+- **Git 倉庫初始化與配置**：
+  - 本地建立 `.git` 倉庫並配置 `.gitignore`，自動排除約 400MB 之 `venv/` 虛擬環境與 Python 快取暫存。
+  - 專案納入 53 個核心檔案，覆蓋全部 4 大課程分類目錄、雙軌機器學習分析管線、互動式 HTML 簡報與完整報告。
+- **GitHub 遠端發布**：
+  - 遠端儲存庫成功部署至：[https://github.com/ian687252lin-collab/DryBean](https://github.com/ian687252lin-collab/DryBean)
+  - 分支：`main`
+  - 研發 [push_to_github.py](file:///c:/Users/IAN/Desktop/人工智慧概論/04_期中專題_DryBean/src/push_to_github.py) 純 Python 自動推播工具，並對本機憑證進行脫敏防護。
+
+---
+
+## [v1.6.0] - 2026-10-13
 ### 🗂️ 全域檔案二次深度整理、分類優化與目錄架構扁平化 (Global Reorganization & Consolidation)
 - **期中專案目錄扁平化 (Zero-Nesting Consolidation)**：
   - 徹底消除原本巢狀嵌套之 `midterm_drybean/` 目錄，將 `src/`、`data/`、`output/`、`venv/`、`requirements.txt` 全數提升至 `04_期中專題_DryBean/` 主目錄。
