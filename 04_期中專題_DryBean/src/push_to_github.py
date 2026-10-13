@@ -38,16 +38,17 @@ def main():
     print(f"目標分支: main")
     print(f"==================================================")
 
-    # 配置 remote
+    # 儲存到 config 的遠端網址保持乾淨（不包含 Token 密碼）
+    clean_target_url = f"https://{clean_url}" if token and "@" not in sys.argv[1] else sys.argv[1]
     try:
-        p.remote_add(ROOT_DIR, 'origin', repo_url.encode('utf-8'))
+        p.remote_add(ROOT_DIR, 'origin', clean_target_url.encode('utf-8'))
         print("已新增遠端倉庫 (origin)")
     except Exception:
         # remote 已存在時嘗試更新
         try:
             repo = p.open_repo_closing(ROOT_DIR)
             c = repo.get_config()
-            c.set((b'remote', b'origin'), b'url', repo_url.encode('utf-8'))
+            c.set((b'remote', b'origin'), b'url', clean_target_url.encode('utf-8'))
             c.write_to_path()
             print("已更新遠端倉庫 (origin) 網址")
         except Exception:
