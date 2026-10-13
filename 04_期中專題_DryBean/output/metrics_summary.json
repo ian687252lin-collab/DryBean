@@ -1,0 +1,88 @@
+{
+  "project_info": {
+    "dataset_name": "UCI Dry Bean Dataset",
+    "total_cleaned_samples": 13543,
+    "features_count": 16,
+    "classes_count": 7,
+    "classes_list": [
+      "BARBUNYA",
+      "BOMBAY",
+      "CALI",
+      "DERMASON",
+      "HOROZ",
+      "SEKER",
+      "SIRA"
+    ]
+  },
+  "supervised_learning": {
+    "best_decision_tree_depth": 15,
+    "decision_tree_test_accuracy": 90.29162052417867,
+    "random_forest_train_accuracy": 99.51079933542552,
+    "random_forest_test_accuracy": 92.06349206349206,
+    "top_5_feature_importances": [
+      {
+        "Feature": "ShapeFactor3",
+        "Importance": 0.10490544094553662
+      },
+      {
+        "Feature": "Perimeter",
+        "Importance": 0.10074575416411242
+      },
+      {
+        "Feature": "ShapeFactor1",
+        "Importance": 0.09123844146177454
+      },
+      {
+        "Feature": "Compactness",
+        "Importance": 0.09069450476557427
+      },
+      {
+        "Feature": "ConvexArea",
+        "Importance": 0.0807059189362308
+      }
+    ],
+    "noise_robustness": {
+      "noise_levels": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.3
+      ],
+      "dt_accuracies": [
+        89.44259874492433,
+        88.4828349944629,
+        87.26467331118494,
+        83.86858619416759,
+        81.13695090439276,
+        75.67368032484312
+      ],
+      "rf_accuracies": [
+        92.06349206349206,
+        91.36212624584718,
+        91.14064230343301,
+        90.69767441860465,
+        89.9593946105574,
+        87.41232927279438
+      ]
+    },
+    "per_class_f1_score": {
+      "BARBUNYA": 0.9132947976878613,
+      "BOMBAY": 1.0,
+      "CALI": 0.9315068493150684,
+      "DERMASON": 0.9175977653631285,
+      "HOROZ": 0.9536784741144414,
+      "SEKER": 0.9486552567237164,
+      "SIRA": 0.8609523809523809
+    }
+  },
+  "unsupervised_learning": {
+    "kmeans_raw_ari": 0.3881111874855157,
+    "kmeans_raw_purity": 0.5876098353392897,
+    "kmeans_scaled_ari": 0.6669496000183429,
+    "kmeans_scaled_purity": 0.797607620172783,
+    "pca_pc1_explained_var": 0.5554680824955917,
+    "pca_pc2_explained_var": 0.2636078891569397
+  }
+}

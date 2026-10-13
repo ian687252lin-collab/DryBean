@@ -1,0 +1,111 @@
+{
+  "best_dt_depth": 15,
+  "best_dt_test_accuracy": 90.29162052417867,
+  "rf_train_accuracy": 99.51079933542552,
+  "rf_test_accuracy": 92.06349206349206,
+  "feature_importances_top5": [
+    {
+      "Feature": "ShapeFactor3",
+      "Importance": 0.10490544094553662
+    },
+    {
+      "Feature": "Perimeter",
+      "Importance": 0.10074575416411242
+    },
+    {
+      "Feature": "ShapeFactor1",
+      "Importance": 0.09123844146177454
+    },
+    {
+      "Feature": "Compactness",
+      "Importance": 0.09069450476557427
+    },
+    {
+      "Feature": "ConvexArea",
+      "Importance": 0.0807059189362308
+    }
+  ],
+  "noise_robustness": {
+    "noise_levels": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.3
+    ],
+    "dt_accuracies": [
+      89.44259874492433,
+      88.4828349944629,
+      87.26467331118494,
+      83.86858619416759,
+      81.13695090439276,
+      75.67368032484312
+    ],
+    "rf_accuracies": [
+      92.06349206349206,
+      91.36212624584718,
+      91.14064230343301,
+      90.69767441860465,
+      89.9593946105574,
+      87.41232927279438
+    ]
+  },
+  "class_report": {
+    "BARBUNYA": {
+      "precision": 0.9330708661417323,
+      "recall": 0.8943396226415095,
+      "f1-score": 0.9132947976878613,
+      "support": 265.0
+    },
+    "BOMBAY": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 104.0
+    },
+    "CALI": {
+      "precision": 0.9244712990936556,
+      "recall": 0.9386503067484663,
+      "f1-score": 0.9315068493150684,
+      "support": 326.0
+    },
+    "DERMASON": {
+      "precision": 0.9087136929460581,
+      "recall": 0.926657263751763,
+      "f1-score": 0.9175977653631285,
+      "support": 709.0
+    },
+    "HOROZ": {
+      "precision": 0.9668508287292817,
+      "recall": 0.9408602150537635,
+      "f1-score": 0.9536784741144414,
+      "support": 372.0
+    },
+    "SEKER": {
+      "precision": 0.941747572815534,
+      "recall": 0.9556650246305419,
+      "f1-score": 0.9486552567237164,
+      "support": 406.0
+    },
+    "SIRA": {
+      "precision": 0.864244741873805,
+      "recall": 0.857685009487666,
+      "f1-score": 0.8609523809523809,
+      "support": 527.0
+    },
+    "accuracy": 0.9206349206349206,
+    "macro avg": {
+      "precision": 0.934157000228581,
+      "recall": 0.9305510631876729,
+      "f1-score": 0.9322407891652282,
+      "support": 2709.0
+    },
+    "weighted avg": {
+      "precision": 0.9207805216495905,
+      "recall": 0.9206349206349206,
+      "f1-score": 0.9206037287813803,
+      "support": 2709.0
+    }
+  }
+}
